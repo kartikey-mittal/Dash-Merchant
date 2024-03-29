@@ -45,7 +45,7 @@ const OrderDetails = () => {
         <Text style={styles.text}>{addressDetails.name}</Text>
         <Text style={styles.text}>{addressDetails.address}</Text>
         <Text style={styles.text}>
-        <Ionicons name="ios-call" size={18} color="grey" />{addressDetails.phoneNumber}</Text>
+        <Ionicons name="call" size={18} color="grey" />{addressDetails.phoneNumber}</Text>
       </View>
 
       {/* Payment Section*/}
